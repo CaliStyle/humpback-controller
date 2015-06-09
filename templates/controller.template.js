@@ -1,6 +1,6 @@
 /**
 * @description 
-* <%= Controllername %>. Controller
+* <%= controllerName %>.controller
 * <%= whatIsThis %>
 **/
 
