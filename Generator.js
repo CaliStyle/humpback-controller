@@ -8,12 +8,12 @@ _.defaults = require('merge-defaults');
 
 
 /**
- * sails-generate-calistyle/humpback-controller
+ * sails-generate-humpback-controller
  *
  * Usage:
- * `sails generate CaliStyle/humpback-controller`
+ * `sails generate humpback-controller`
  *
- * @description Generates a CaliStyle/humpback-controller
+ * @description Generates a humpback-controller
  * @help See http://links.sailsjs.org/docs/generators
  */
 
@@ -35,10 +35,10 @@ module.exports = {
     // scope.args are the raw command line arguments.
     //
     // e.g. if someone runs:
-    // $ sails generate CaliStyle/humpback-controller user find create update
+    // $ sails generate humpback-controller user find create update
     // then `scope.args` would be `['user', 'find', 'create', 'update']`
     if (!scope.args[0]) {
-      return cb( new Error('Please provide a name for this CaliStyle/humpback-controller.') );
+      return cb( new Error('Please provide a name for this humpback-controller.') );
     }
 
     // scope.rootPath is the base path for this generator
@@ -125,9 +125,9 @@ module.exports = {
 
 function INVALID_SCOPE_VARIABLE (varname, details, message) {
   var DEFAULT_MESSAGE =
-  'Issue encountered in generator "CaliStyle/humpback-controller":\n'+
+  'Issue encountered in generator "humpback-controller":\n'+
   'Missing required scope variable: `%s`"\n' +
-  'If you are the author of `sails-generate-calistyle/humpback-controller`, please resolve this '+
+  'If you are the author of `sails-generate-humpback-controller`, please resolve this '+
   'issue and publish a new patch release.';
 
   message = (message || DEFAULT_MESSAGE) + (details ? '\n'+details : '');

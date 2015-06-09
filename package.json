@@ -1,13 +1,13 @@
 {
-  "name": "sails-generate-calistyle/humpback-controller",
+  "name": "sails-generate-humpback-controller",
   "version": "0.10.0",
-  "description": "sails generate CaliStyle/humpback-controller",
+  "description": "sails generate humpback-controller",
   "main": "Generator.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
-    "CaliStyle/humpback-controller",
+    "humpback-controller",
     "generator",
     "sails",
     "generate",
@@ -25,8 +25,8 @@
     "fs-extra": "*"
   },
   "sailsGenerator": {
-    "type": "CaliStyle/humpback-controller",
-    "behavior": "overrides `sails generate CaliStyle/humpback-controller`",
+    "type": "humpback-controller",
+    "behavior": "overrides `sails generate humpback-controller`",
     "sailsVersion": "~0.10.0"
   }
 }
