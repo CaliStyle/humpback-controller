@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/CaliStyle/humback-controller.git"
+    "url": "git://github.com/CaliStyle/humpback-controller.git"
   },
   "dependencies": {
     "lodash": ">=2.4.x",
